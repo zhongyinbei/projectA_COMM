@@ -1,0 +1,94 @@
+CREATE DATABASE IF NOT EXISTS lab_mgmt DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE lab_mgmt;
+
+CREATE TABLE sys_user (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  username VARCHAR(50) NOT NULL UNIQUE,
+  password VARCHAR(100) NOT NULL,
+  real_name VARCHAR(50) NOT NULL,
+  role VARCHAR(20) NOT NULL COMMENT 'REPORTER/REPAIRER/ADMIN',
+  phone VARCHAR(20),
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE equipment (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  asset_no VARCHAR(50) NOT NULL UNIQUE,
+  name VARCHAR(100) NOT NULL,
+  location VARCHAR(100) NOT NULL,
+  category VARCHAR(50),
+  status VARCHAR(20) NOT NULL DEFAULT 'NORMAL' COMMENT 'NORMAL/REPAIRING/SCRAPPED',
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  KEY idx_status (status)
+);
+
+CREATE TABLE repair_order (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  order_no VARCHAR(32) NOT NULL UNIQUE,
+  equipment_id BIGINT NOT NULL,
+  reporter_id BIGINT NOT NULL,
+  assignee_id BIGINT NULL,
+  description VARCHAR(500) NOT NULL,
+  image_url VARCHAR(255),
+  status VARCHAR(20) NOT NULL DEFAULT 'PENDING'
+    COMMENT 'PENDING/ACCEPTED/REJECTED/COMPLETED',
+  repair_note VARCHAR(500),
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  accepted_at DATETIME,
+  completed_at DATETIME,
+  KEY idx_status (status),
+  KEY idx_reporter (reporter_id),
+  KEY idx_assignee (assignee_id)
+);
+
+CREATE TABLE inspection_point (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  point_code VARCHAR(50) NOT NULL UNIQUE,
+  location VARCHAR(100) NOT NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE inspection_record (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  point_id BIGINT NOT NULL,
+  inspector_id BIGINT NOT NULL,
+  result VARCHAR(20) NOT NULL COMMENT 'NORMAL/ABNORMAL',
+  remark VARCHAR(255),
+  inspected_at DATETIME NOT NULL,
+  synced_from_offline TINYINT(1) NOT NULL DEFAULT 0,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  KEY idx_point (point_id),
+  KEY idx_inspector (inspector_id)
+);
+
+CREATE TABLE consumable (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(100) NOT NULL,
+  spec VARCHAR(100),
+  unit VARCHAR(20) NOT NULL,
+  stock INT NOT NULL DEFAULT 0,
+  threshold INT NOT NULL DEFAULT 5,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE consumable_transaction (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  consumable_id BIGINT NOT NULL,
+  type VARCHAR(10) NOT NULL COMMENT 'IN/OUT',
+  quantity INT NOT NULL,
+  operator_id BIGINT NOT NULL,
+  remark VARCHAR(255),
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  KEY idx_consumable (consumable_id)
+);
+
+CREATE TABLE operation_log (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  biz_type VARCHAR(30) NOT NULL COMMENT 'REPAIR_ORDER/INSPECTION/CONSUMABLE/STOCK_ALERT',
+  biz_id BIGINT,
+  action VARCHAR(50) NOT NULL,
+  detail VARCHAR(500),
+  operator_id BIGINT,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  KEY idx_biz (biz_type, biz_id)
+);

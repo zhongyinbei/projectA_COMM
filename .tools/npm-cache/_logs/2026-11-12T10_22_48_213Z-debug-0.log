@@ -1,0 +1,473 @@
+0 verbose cli D:\nodeapp\node.exe D:\nodeapp\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.19.0
+2 info using node@v24.20.0
+3 silly config load:file:D:\nodeapp\node_modules\npm\npmrc
+4 silly config load:file:D:\zhongyinbei\lab-mgmt-demo\frontend\.npmrc
+5 silly config load:file:C:\Users\12489\.npmrc
+6 silly config load:file:C:\Users\12489\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--no-audit" "--no-fund" "--ignore-scripts" "--registry" "https://registry.npmmirror.com" "--cache" "D:\\zhongyinbei\\.tools\\npm-cache"
+9 verbose logfile logs-max:10 dir:D:\zhongyinbei\.tools\npm-cache\_logs\2026-11-12T10_22_48_213Z-
+10 verbose logfile D:\zhongyinbei\.tools\npm-cache\_logs\2026-11-12T10_22_48_213Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+14 silly idealTree buildDeps
+15 silly fetch manifest axios@1.7.7
+16 silly packumentCache full:https://registry.npmmirror.com/axios cache-miss
+17 http fetch GET 200 https://registry.npmmirror.com/axios 147ms (cache revalidated)
+18 silly packumentCache full:https://registry.npmmirror.com/axios set size:911214 disposed:false
+19 silly fetch manifest echarts@5.5.1
+20 silly packumentCache full:https://registry.npmmirror.com/echarts cache-miss
+21 http fetch GET 200 https://registry.npmmirror.com/echarts 62ms (cache revalidated)
+22 silly packumentCache full:https://registry.npmmirror.com/echarts set size:417073 disposed:false
+23 silly fetch manifest element-plus@2.7.8
+24 silly packumentCache full:https://registry.npmmirror.com/element-plus cache-miss
+25 http fetch GET 200 https://registry.npmmirror.com/element-plus 69ms (cache revalidated)
+26 silly packumentCache full:https://registry.npmmirror.com/element-plus set size:1146438 disposed:false
+27 silly fetch manifest vue@3.4.38
+28 silly packumentCache full:https://registry.npmmirror.com/vue cache-miss
+29 http fetch GET 200 https://registry.npmmirror.com/vue 483ms (cache updated)
+30 silly packumentCache full:https://registry.npmmirror.com/vue set size:387343 disposed:false
+31 silly fetch manifest typescript@*
+32 silly packumentCache full:https://registry.npmmirror.com/typescript cache-miss
+33 http fetch GET 200 https://registry.npmmirror.com/typescript 3682ms (cache updated)
+34 silly packumentCache full:https://registry.npmmirror.com/typescript set size:1751341 disposed:false
+35 silly fetch manifest pinia@2.2.2
+36 silly packumentCache full:https://registry.npmmirror.com/pinia cache-miss
+37 http fetch GET 200 https://registry.npmmirror.com/pinia 68ms (cache revalidated)
+38 silly packumentCache full:https://registry.npmmirror.com/pinia set size:512927 disposed:false
+39 silly fetch manifest @vue/composition-api@^1.4.0
+40 silly packumentCache full:https://registry.npmmirror.com/@vue%2fcomposition-api cache-miss
+41 http fetch GET 200 https://registry.npmmirror.com/@vue%2fcomposition-api 60ms (cache revalidated)
+42 silly packumentCache full:https://registry.npmmirror.com/@vue%2fcomposition-api set size:482542 disposed:false
+43 silly fetch manifest vue@>= 2.5 < 2.7
+44 silly packumentCache full:https://registry.npmmirror.com/vue cache-hit
+45 silly fetch manifest vue-router@4.4.3
+46 silly packumentCache full:https://registry.npmmirror.com/vue-router cache-miss
+47 http fetch GET 200 https://registry.npmmirror.com/vue-router 77ms (cache revalidated)
+48 silly packumentCache full:https://registry.npmmirror.com/vue-router set size:954986 disposed:false
+49 silly fetch manifest @vitejs/plugin-vue@5.1.4
+50 silly packumentCache full:https://registry.npmmirror.com/@vitejs%2fplugin-vue cache-miss
+51 http fetch GET 200 https://registry.npmmirror.com/@vitejs%2fplugin-vue 65ms (cache revalidated)
+52 silly packumentCache full:https://registry.npmmirror.com/@vitejs%2fplugin-vue set size:414192 disposed:false
+53 silly fetch manifest vite@5.4.8
+54 silly packumentCache full:https://registry.npmmirror.com/vite cache-miss
+55 http fetch GET 200 https://registry.npmmirror.com/vite 132ms (cache revalidated)
+56 silly packumentCache full:https://registry.npmmirror.com/vite set size:38865407 disposed:false
+57 silly fetch manifest @types/node@^18.0.0 || >=20.0.0
+58 silly packumentCache full:https://registry.npmmirror.com/@types%2fnode cache-miss
+59 http fetch GET 200 https://registry.npmmirror.com/@types%2fnode 61ms (cache revalidated)
+60 silly packumentCache full:https://registry.npmmirror.com/@types%2fnode set size:10432110 disposed:false
+61 silly fetch manifest less@*
+62 silly packumentCache full:https://registry.npmmirror.com/less cache-miss
+63 http fetch GET 200 https://registry.npmmirror.com/less 69ms (cache revalidated)
+64 silly packumentCache full:https://registry.npmmirror.com/less set size:574713 disposed:false
+65 silly fetch manifest lightningcss@^1.21.0
+66 silly packumentCache full:https://registry.npmmirror.com/lightningcss cache-miss
+67 http fetch GET 200 https://registry.npmmirror.com/lightningcss 61ms (cache revalidated)
+68 silly packumentCache full:https://registry.npmmirror.com/lightningcss set size:196106 disposed:false
+69 silly fetch manifest sass@*
+70 silly packumentCache full:https://registry.npmmirror.com/sass cache-miss
+71 http fetch GET 200 https://registry.npmmirror.com/sass 35ms (cache revalidated)
+72 silly packumentCache full:https://registry.npmmirror.com/sass set size:652531 disposed:false
+73 silly fetch manifest sass-embedded@*
+74 silly packumentCache full:https://registry.npmmirror.com/sass-embedded cache-miss
+75 http fetch GET 200 https://registry.npmmirror.com/sass-embedded 61ms (cache revalidated)
+76 silly packumentCache full:https://registry.npmmirror.com/sass-embedded set size:493983 disposed:false
+77 silly fetch manifest stylus@*
+78 silly packumentCache full:https://registry.npmmirror.com/stylus cache-miss
+79 http fetch GET 200 https://registry.npmmirror.com/stylus 66ms (cache revalidated)
+80 silly packumentCache full:https://registry.npmmirror.com/stylus set size:312391 disposed:false
+81 silly fetch manifest sugarss@*
+82 silly packumentCache full:https://registry.npmmirror.com/sugarss cache-miss
+83 http fetch GET 200 https://registry.npmmirror.com/sugarss 65ms (cache revalidated)
+84 silly packumentCache full:https://registry.npmmirror.com/sugarss set size:40441 disposed:false
+85 silly fetch manifest postcss@^8.3.3
+86 silly packumentCache full:https://registry.npmmirror.com/postcss cache-miss
+87 http fetch GET 200 https://registry.npmmirror.com/postcss 60ms (cache revalidated)
+88 silly packumentCache full:https://registry.npmmirror.com/postcss set size:698942 disposed:false
+89 silly fetch manifest terser@^5.4.0
+90 silly packumentCache full:https://registry.npmmirror.com/terser cache-miss
+91 http fetch GET 200 https://registry.npmmirror.com/terser 42ms (cache revalidated)
+92 silly packumentCache full:https://registry.npmmirror.com/terser set size:729417 disposed:false
+93 silly placeDep ROOT @vitejs/plugin-vue@5.1.4 REPLACE for: lab-mgmt-frontend@1.0.0 want: 5.1.4
+94 silly placeDep ROOT axios@1.7.7 REPLACE for: lab-mgmt-frontend@1.0.0 want: 1.7.7
+95 silly placeDep ROOT echarts@5.5.1 REPLACE for: lab-mgmt-frontend@1.0.0 want: 5.5.1
+96 silly placeDep ROOT element-plus@2.7.8 REPLACE for: lab-mgmt-frontend@1.0.0 want: 2.7.8
+97 silly placeDep ROOT pinia@2.2.2 REPLACE for: lab-mgmt-frontend@1.0.0 want: 2.2.2
+98 silly placeDep ROOT vite@5.4.8 REPLACE for: lab-mgmt-frontend@1.0.0 want: 5.4.8
+99 silly placeDep ROOT vue@3.4.38 REPLACE for: lab-mgmt-frontend@1.0.0 want: 3.4.38
+100 silly placeDep ROOT vue-router@4.4.3 REPLACE for: lab-mgmt-frontend@1.0.0 want: 4.4.3
+101 silly fetch manifest proxy-from-env@^1.1.0
+102 silly packumentCache full:https://registry.npmmirror.com/proxy-from-env cache-miss
+103 silly fetch manifest tslib@2.3.0
+104 silly packumentCache full:https://registry.npmmirror.com/tslib cache-miss
+105 silly fetch manifest zrender@5.6.0
+106 silly packumentCache full:https://registry.npmmirror.com/zrender cache-miss
+107 silly fetch manifest @ctrl/tinycolor@^3.4.1
+108 silly packumentCache full:https://registry.npmmirror.com/@ctrl%2ftinycolor cache-miss
+109 silly fetch manifest @vueuse/core@^9.1.0
+110 silly packumentCache full:https://registry.npmmirror.com/@vueuse%2fcore cache-miss
+111 silly fetch manifest escape-html@^1.0.3
+112 silly packumentCache full:https://registry.npmmirror.com/escape-html cache-miss
+113 silly fetch manifest @vue/shared@3.4.38
+114 silly packumentCache full:https://registry.npmmirror.com/@vue%2fshared cache-miss
+115 silly fetch manifest @vue/runtime-dom@3.4.38
+116 silly packumentCache full:https://registry.npmmirror.com/@vue%2fruntime-dom cache-miss
+117 silly fetch manifest @vue/compiler-dom@3.4.38
+118 silly packumentCache full:https://registry.npmmirror.com/@vue%2fcompiler-dom cache-miss
+119 silly fetch manifest @vue/compiler-sfc@3.4.38
+120 silly packumentCache full:https://registry.npmmirror.com/@vue%2fcompiler-sfc cache-miss
+121 silly fetch manifest @vue/server-renderer@3.4.38
+122 silly packumentCache full:https://registry.npmmirror.com/@vue%2fserver-renderer cache-miss
+123 http fetch GET 200 https://registry.npmmirror.com/escape-html 58ms (cache miss)
+124 silly packumentCache full:https://registry.npmmirror.com/escape-html set size:2142 disposed:false
+125 http fetch GET 200 https://registry.npmmirror.com/tslib 72ms (cache revalidated)
+126 silly packumentCache full:https://registry.npmmirror.com/tslib set size:115992 disposed:false
+127 http fetch GET 200 https://registry.npmmirror.com/zrender 101ms (cache revalidated)
+128 silly packumentCache full:https://registry.npmmirror.com/zrender set size:187117 disposed:false
+129 http fetch GET 200 https://registry.npmmirror.com/@vue%2fshared 130ms (cache updated)
+130 silly packumentCache full:https://registry.npmmirror.com/@vue%2fshared set size:122762 disposed:false
+131 http fetch GET 200 https://registry.npmmirror.com/@vueuse%2fcore 136ms (cache revalidated)
+132 silly packumentCache full:https://registry.npmmirror.com/@vueuse%2fcore set size:943764 disposed:false
+133 http fetch GET 200 https://registry.npmmirror.com/@vue%2fcompiler-dom 144ms (cache updated)
+134 silly packumentCache full:https://registry.npmmirror.com/@vue%2fcompiler-dom set size:129979 disposed:false
+135 http fetch GET 200 https://registry.npmmirror.com/@vue%2fserver-renderer 147ms (cache updated)
+136 silly packumentCache full:https://registry.npmmirror.com/@vue%2fserver-renderer set size:130390 disposed:false
+137 http fetch GET 200 https://registry.npmmirror.com/@ctrl%2ftinycolor 178ms (cache revalidated)
+138 silly packumentCache full:https://registry.npmmirror.com/@ctrl%2ftinycolor set size:178763 disposed:false
+139 http fetch GET 200 https://registry.npmmirror.com/proxy-from-env 186ms (cache revalidated)
+140 silly packumentCache full:https://registry.npmmirror.com/proxy-from-env set size:20696 disposed:false
+141 http fetch GET 200 https://registry.npmmirror.com/@vue%2fruntime-dom 201ms (cache updated)
+142 silly packumentCache full:https://registry.npmmirror.com/@vue%2fruntime-dom set size:130027 disposed:false
+143 http fetch GET 200 https://registry.npmmirror.com/@vue%2fcompiler-sfc 298ms (cache updated)
+144 silly packumentCache full:https://registry.npmmirror.com/@vue%2fcompiler-sfc set size:178270 disposed:false
+145 silly placeDep ROOT proxy-from-env@1.1.0 OK for: axios@1.7.7 want: ^1.1.0
+146 silly placeDep ROOT tslib@2.3.0 OK for: echarts@5.5.1 want: 2.3.0
+147 silly placeDep ROOT zrender@5.6.0 OK for: echarts@5.5.1 want: 5.6.0
+148 silly placeDep ROOT @ctrl/tinycolor@3.6.1 OK for: element-plus@2.7.8 want: ^3.4.1
+149 silly placeDep ROOT @vueuse/core@9.13.0 OK for: element-plus@2.7.8 want: ^9.1.0
+150 silly placeDep ROOT escape-html@1.0.3 OK for: element-plus@2.7.8 want: ^1.0.3
+151 silly fetch manifest @types/web-bluetooth@^0.0.16
+152 silly packumentCache full:https://registry.npmmirror.com/@types%2fweb-bluetooth cache-miss
+153 silly fetch manifest @vueuse/metadata@9.13.0
+154 silly packumentCache full:https://registry.npmmirror.com/@vueuse%2fmetadata cache-miss
+155 silly fetch manifest @vueuse/shared@9.13.0
+156 silly packumentCache full:https://registry.npmmirror.com/@vueuse%2fshared cache-miss
+157 http fetch GET 200 https://registry.npmmirror.com/@types%2fweb-bluetooth 80ms (cache revalidated)
+158 silly packumentCache full:https://registry.npmmirror.com/@types%2fweb-bluetooth set size:44412 disposed:false
+159 http fetch GET 200 https://registry.npmmirror.com/@vueuse%2fmetadata 84ms (cache revalidated)
+160 silly packumentCache full:https://registry.npmmirror.com/@vueuse%2fmetadata set size:334529 disposed:false
+161 http fetch GET 200 https://registry.npmmirror.com/@vueuse%2fshared 94ms (cache revalidated)
+162 silly packumentCache full:https://registry.npmmirror.com/@vueuse%2fshared set size:592960 disposed:false
+163 silly placeDep ROOT @types/web-bluetooth@0.0.16 OK for: @vueuse/core@9.13.0 want: ^0.0.16
+164 silly placeDep ROOT @vueuse/metadata@9.13.0 OK for: @vueuse/core@9.13.0 want: 9.13.0
+165 silly placeDep ROOT @vueuse/shared@9.13.0 OK for: @vueuse/core@9.13.0 want: 9.13.0
+166 silly placeDep ROOT @vue/compiler-dom@3.4.38 OK for: vue@3.4.38 want: 3.4.38
+167 silly placeDep ROOT @vue/compiler-sfc@3.4.38 OK for: vue@3.4.38 want: 3.4.38
+168 silly placeDep ROOT @vue/runtime-dom@3.4.38 OK for: vue@3.4.38 want: 3.4.38
+169 silly placeDep ROOT @vue/server-renderer@3.4.38 OK for: vue@3.4.38 want: 3.4.38
+170 silly placeDep ROOT @vue/shared@3.4.38 OK for: vue@3.4.38 want: 3.4.38
+171 silly fetch manifest @vue/compiler-core@3.4.38
+172 silly packumentCache full:https://registry.npmmirror.com/@vue%2fcompiler-core cache-miss
+173 silly fetch manifest @babel/parser@^7.24.7
+174 silly packumentCache full:https://registry.npmmirror.com/@babel%2fparser cache-miss
+175 silly fetch manifest estree-walker@^2.0.2
+176 silly packumentCache full:https://registry.npmmirror.com/estree-walker cache-miss
+177 silly fetch manifest magic-string@^0.30.10
+178 silly packumentCache full:https://registry.npmmirror.com/magic-string cache-miss
+179 silly fetch manifest @vue/compiler-core@3.4.38
+180 silly packumentCache full:https://registry.npmmirror.com/@vue%2fcompiler-core cache-miss
+181 silly fetch manifest @vue/compiler-ssr@3.4.38
+182 silly packumentCache full:https://registry.npmmirror.com/@vue%2fcompiler-ssr cache-miss
+183 silly fetch manifest csstype@^3.1.3
+184 silly packumentCache full:https://registry.npmmirror.com/csstype cache-miss
+185 silly fetch manifest @vue/reactivity@3.4.38
+186 silly packumentCache full:https://registry.npmmirror.com/@vue%2freactivity cache-miss
+187 silly fetch manifest @vue/runtime-core@3.4.38
+188 silly packumentCache full:https://registry.npmmirror.com/@vue%2fruntime-core cache-miss
+189 silly fetch manifest @vue/compiler-ssr@3.4.38
+190 silly packumentCache full:https://registry.npmmirror.com/@vue%2fcompiler-ssr cache-miss
+191 http fetch GET 200 https://registry.npmmirror.com/@babel%2fparser 54ms (cache revalidated)
+192 silly packumentCache full:https://registry.npmmirror.com/@babel%2fparser set size:683570 disposed:false
+193 http fetch GET 200 https://registry.npmmirror.com/estree-walker 59ms (cache revalidated)
+194 silly packumentCache full:https://registry.npmmirror.com/estree-walker set size:48127 disposed:false
+195 http fetch GET 200 https://registry.npmmirror.com/csstype 86ms (cache revalidated)
+196 silly packumentCache full:https://registry.npmmirror.com/csstype set size:227919 disposed:false
+197 http fetch GET 200 https://registry.npmmirror.com/magic-string 96ms (cache revalidated)
+198 silly packumentCache full:https://registry.npmmirror.com/magic-string set size:377372 disposed:false
+199 http fetch GET 200 https://registry.npmmirror.com/@vue%2fcompiler-core 102ms (cache updated)
+200 silly packumentCache full:https://registry.npmmirror.com/@vue%2fcompiler-core set size:129738 disposed:false
+201 http fetch GET 200 https://registry.npmmirror.com/@vue%2fcompiler-core 120ms (cache updated)
+202 silly packumentCache full:https://registry.npmmirror.com/@vue%2fcompiler-core set size:129738 disposed:false
+203 silly packumentCache full:https://registry.npmmirror.com/@vue%2fcompiler-core dispose
+204 http fetch GET 200 https://registry.npmmirror.com/@vue%2freactivity 144ms (cache updated)
+205 silly packumentCache full:https://registry.npmmirror.com/@vue%2freactivity set size:127705 disposed:false
+206 http fetch GET 200 https://registry.npmmirror.com/@vue%2fruntime-core 197ms (cache updated)
+207 silly packumentCache full:https://registry.npmmirror.com/@vue%2fruntime-core set size:128844 disposed:false
+208 http fetch GET 200 https://registry.npmmirror.com/@vue%2fcompiler-ssr 250ms (cache updated)
+209 silly packumentCache full:https://registry.npmmirror.com/@vue%2fcompiler-ssr set size:123834 disposed:false
+210 http fetch GET 200 https://registry.npmmirror.com/@vue%2fcompiler-ssr 384ms (cache updated)
+211 silly packumentCache full:https://registry.npmmirror.com/@vue%2fcompiler-ssr set size:123834 disposed:false
+212 silly packumentCache full:https://registry.npmmirror.com/@vue%2fcompiler-ssr dispose
+213 silly placeDep ROOT @vue/compiler-core@3.4.38 OK for: @vue/compiler-dom@3.4.38 want: 3.4.38
+214 silly fetch manifest entities@^4.5.0
+215 silly packumentCache full:https://registry.npmmirror.com/entities cache-miss
+216 http fetch GET 200 https://registry.npmmirror.com/entities 70ms (cache revalidated)
+217 silly packumentCache full:https://registry.npmmirror.com/entities set size:103308 disposed:false
+218 silly placeDep ROOT @babel/parser@7.29.14 OK for: @vue/compiler-core@3.4.38 want: ^7.24.7
+219 silly placeDep ROOT entities@4.5.0 OK for: @vue/compiler-core@3.4.38 want: ^4.5.0
+220 silly placeDep ROOT estree-walker@2.0.2 OK for: @vue/compiler-core@3.4.38 want: ^2.0.2
+221 silly fetch manifest @babel/types@^7.29.14
+222 silly packumentCache full:https://registry.npmmirror.com/@babel%2ftypes cache-miss
+223 http fetch GET 200 https://registry.npmmirror.com/@babel%2ftypes 32ms (cache revalidated)
+224 silly packumentCache full:https://registry.npmmirror.com/@babel%2ftypes set size:459634 disposed:false
+225 silly placeDep ROOT @babel/types@7.29.14 OK for: @babel/parser@7.29.14 want: ^7.29.14
+226 silly fetch manifest @babel/helper-string-parser@^7.29.14
+227 silly packumentCache full:https://registry.npmmirror.com/@babel%2fhelper-string-parser cache-miss
+228 silly fetch manifest @babel/helper-validator-identifier@^7.29.7
+229 silly packumentCache full:https://registry.npmmirror.com/@babel%2fhelper-validator-identifier cache-miss
+230 http fetch GET 200 https://registry.npmmirror.com/@babel%2fhelper-string-parser 301ms (cache revalidated)
+231 silly packumentCache full:https://registry.npmmirror.com/@babel%2fhelper-string-parser set size:111421 disposed:false
+232 http fetch GET 200 https://registry.npmmirror.com/@babel%2fhelper-validator-identifier 316ms (cache revalidated)
+233 silly packumentCache full:https://registry.npmmirror.com/@babel%2fhelper-validator-identifier set size:128407 disposed:false
+234 silly placeDep ROOT @babel/helper-string-parser@7.29.14 OK for: @babel/types@7.29.14 want: ^7.29.14
+235 silly placeDep ROOT @babel/helper-validator-identifier@7.29.7 OK for: @babel/types@7.29.14 want: ^7.29.7
+236 silly placeDep ROOT @vue/compiler-ssr@3.4.38 OK for: @vue/compiler-sfc@3.4.38 want: 3.4.38
+237 silly placeDep ROOT magic-string@0.30.21 OK for: @vue/compiler-sfc@3.4.38 want: ^0.30.10
+238 silly fetch manifest @jridgewell/sourcemap-codec@^1.5.5
+239 silly packumentCache full:https://registry.npmmirror.com/@jridgewell%2fsourcemap-codec cache-miss
+240 http fetch GET 200 https://registry.npmmirror.com/@jridgewell%2fsourcemap-codec 52ms (cache revalidated)
+241 silly packumentCache full:https://registry.npmmirror.com/@jridgewell%2fsourcemap-codec set size:66419 disposed:false
+242 silly placeDep ROOT @vue/reactivity@3.4.38 OK for: @vue/runtime-dom@3.4.38 want: 3.4.38
+243 silly placeDep ROOT @vue/runtime-core@3.4.38 OK for: @vue/runtime-dom@3.4.38 want: 3.4.38
+244 silly placeDep ROOT csstype@3.2.3 OK for: @vue/runtime-dom@3.4.38 want: ^3.1.3
+245 silly placeDep ROOT @jridgewell/sourcemap-codec@1.6.0 OK for: magic-string@0.30.21 want: ^1.5.5
+246 silly reify mark retired [
+246 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\agent-base'
+246 silly reify ]
+247 silly reify mark retired [ 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\axios' ]
+248 silly reify mark retired [ 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\entities' ]
+249 silly reify mark retired [
+249 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\element-plus'
+249 silly reify ]
+250 silly reify mark retired [ 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\debug' ]
+251 silly reify mark retired [ 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\echarts' ]
+252 silly reify mark retired [
+252 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\https-proxy-agent'
+252 silly reify ]
+253 silly reify mark retired [ 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\pinia' ]
+254 silly reify mark retired [ 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\ms' ]
+255 silly reify mark retired [
+255 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\proxy-from-env'
+255 silly reify ]
+256 silly reify mark retired [
+256 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\vite',
+256 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.bin\\vite',
+256 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.bin\\vite.cmd',
+256 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.bin\\vite.ps1'
+256 silly reify ]
+257 silly reify mark retired [ 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\vue' ]
+258 silly reify mark retired [
+258 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\vue-component-type-helpers'
+258 silly reify ]
+259 silly reify mark retired [
+259 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\vue-router'
+259 silly reify ]
+260 silly reify mark retired [ 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\zrender' ]
+261 silly reify mark retired [
+261 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@ctrl\\tinycolor'
+261 silly reify ]
+262 silly reify mark retired [
+262 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@types\\web-bluetooth'
+262 silly reify ]
+263 silly reify mark retired [
+263 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vitejs\\plugin-vue'
+263 silly reify ]
+264 silly reify mark retired [
+264 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\compiler-core'
+264 silly reify ]
+265 silly reify mark retired [
+265 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\compiler-dom'
+265 silly reify ]
+266 silly reify mark retired [
+266 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\compiler-ssr'
+266 silly reify ]
+267 silly reify mark retired [
+267 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\compiler-sfc'
+267 silly reify ]
+268 silly reify mark retired [
+268 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\reactivity'
+268 silly reify ]
+269 silly reify mark retired [
+269 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\runtime-core'
+269 silly reify ]
+270 silly reify mark retired [
+270 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\runtime-dom'
+270 silly reify ]
+271 silly reify mark retired [
+271 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\server-renderer'
+271 silly reify ]
+272 silly reify mark retired [
+272 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\shared'
+272 silly reify ]
+273 silly reify mark retired [
+273 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vueuse\\metadata'
+273 silly reify ]
+274 silly reify mark retired [
+274 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vueuse\\shared'
+274 silly reify ]
+275 silly reify mark retired [
+275 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vueuse\\core'
+275 silly reify ]
+276 silly reify moves {
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\agent-base': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.agent-base-FfzXNUcc',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\axios': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.axios-l5JyHmcZ',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\entities': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.entities-2XjU83hR',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\element-plus': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.element-plus-WRp9jkl7',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\debug': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.debug-Co4mN9KV',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\echarts': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.echarts-FYKqfNZt',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\https-proxy-agent': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.https-proxy-agent-e8E9WW7i',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\pinia': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.pinia-pM8NDfYE',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\ms': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.ms-HpL1tEtW',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\proxy-from-env': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.proxy-from-env-H3MbEbUZ',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\vite': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.vite-RdE0XlUM',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.bin\\vite': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.bin\\.vite-zjTOl9qn',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.bin\\vite.cmd': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.bin\\.vite.cmd-WeGN21Cs',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.bin\\vite.ps1': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.bin\\.vite.ps1-kutnfYHX',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\vue': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.vue-92ZbEbxd',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\vue-component-type-helpers': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.vue-component-type-helpers-aQjPOHog',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\vue-router': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.vue-router-riU8nVA3',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\zrender': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\.zrender-DX08h8wq',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@ctrl\\tinycolor': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@ctrl\\.tinycolor-w5ay0YFx',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@types\\web-bluetooth': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@types\\.web-bluetooth-EIgI6Jlo',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vitejs\\plugin-vue': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vitejs\\.plugin-vue-O4jJANg5',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\compiler-core': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\.compiler-core-2MytOE0V',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\compiler-dom': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\.compiler-dom-xzaiGEAH',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\compiler-ssr': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\.compiler-ssr-4Q3a7nmI',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\compiler-sfc': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\.compiler-sfc-rIDCCotj',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\reactivity': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\.reactivity-RTjfn0Wq',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\runtime-core': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\.runtime-core-JWrraxdG',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\runtime-dom': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\.runtime-dom-kgMzGKE4',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\server-renderer': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\.server-renderer-OVPcftQ5',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\shared': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vue\\.shared-GUoG0iHN',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vueuse\\metadata': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vueuse\\.metadata-9ofRPZvR',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vueuse\\shared': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vueuse\\.shared-2YkiXvT3',
+276 silly reify   'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vueuse\\core': 'D:\\zhongyinbei\\lab-mgmt-demo\\frontend\\node_modules\\@vueuse\\.core-CQHvhbAt'
+276 silly reify }
+277 http cache @vueuse/core@https://registry.npmmirror.com/@vueuse/core/-/core-9.13.0.tgz 0ms (cache hit)
+278 http cache @vueuse/shared@https://registry.npmmirror.com/@vueuse/shared/-/shared-9.13.0.tgz 0ms (cache hit)
+279 http cache @vueuse/metadata@https://registry.npmmirror.com/@vueuse/metadata/-/metadata-9.13.0.tgz 0ms (cache hit)
+280 http cache escape-html@https://registry.npmmirror.com/escape-html/-/escape-html-1.0.3.tgz 0ms (cache hit)
+281 http cache @vue/runtime-core@https://registry.npmmirror.com/@vue/runtime-core/-/runtime-core-3.4.38.tgz 0ms (cache hit)
+282 http cache @vue/runtime-dom@https://registry.npmmirror.com/@vue/runtime-dom/-/runtime-dom-3.4.38.tgz 0ms (cache hit)
+283 http cache @vue/server-renderer@https://registry.npmmirror.com/@vue/server-renderer/-/server-renderer-3.4.38.tgz 0ms (cache hit)
+284 http cache @vue/reactivity@https://registry.npmmirror.com/@vue/reactivity/-/reactivity-3.4.38.tgz 0ms (cache hit)
+285 http cache @vue/compiler-sfc@https://registry.npmmirror.com/@vue/compiler-sfc/-/compiler-sfc-3.4.38.tgz 0ms (cache hit)
+286 http cache @vue/compiler-ssr@https://registry.npmmirror.com/@vue/compiler-ssr/-/compiler-ssr-3.4.38.tgz 0ms (cache hit)
+287 http cache @vue/compiler-dom@https://registry.npmmirror.com/@vue/compiler-dom/-/compiler-dom-3.4.38.tgz 0ms (cache hit)
+288 http cache @vue/shared@https://registry.npmmirror.com/@vue/shared/-/shared-3.4.38.tgz 0ms (cache hit)
+289 http cache @vitejs/plugin-vue@https://registry.npmmirror.com/@vitejs/plugin-vue/-/plugin-vue-5.1.4.tgz 0ms (cache hit)
+290 http cache @types/web-bluetooth@https://registry.npmmirror.com/@types/web-bluetooth/-/web-bluetooth-0.0.16.tgz 0ms (cache hit)
+291 http cache @vue/compiler-core@https://registry.npmmirror.com/@vue/compiler-core/-/compiler-core-3.4.38.tgz 0ms (cache hit)
+292 http cache @ctrl/tinycolor@https://registry.npmmirror.com/@ctrl/tinycolor/-/tinycolor-3.6.1.tgz 0ms (cache hit)
+293 http cache zrender@https://registry.npmmirror.com/zrender/-/zrender-5.6.0.tgz 0ms (cache hit)
+294 http cache vue@https://registry.npmmirror.com/vue/-/vue-3.4.38.tgz 0ms (cache hit)
+295 http cache vue-router@https://registry.npmmirror.com/vue-router/-/vue-router-4.4.3.tgz 0ms (cache hit)
+296 http cache vite@https://registry.npmmirror.com/vite/-/vite-5.4.8.tgz 0ms (cache hit)
+297 http cache proxy-from-env@https://registry.npmmirror.com/proxy-from-env/-/proxy-from-env-1.1.0.tgz 0ms (cache hit)
+298 http cache pinia@https://registry.npmmirror.com/pinia/-/pinia-2.2.2.tgz 0ms (cache hit)
+299 http cache echarts@https://registry.npmmirror.com/echarts/-/echarts-5.5.1.tgz 0ms (cache hit)
+300 http cache element-plus@https://registry.npmmirror.com/element-plus/-/element-plus-2.7.8.tgz 0ms (cache hit)
+301 http cache entities@https://registry.npmmirror.com/entities/-/entities-4.5.0.tgz 0ms (cache hit)
+302 http cache axios@https://registry.npmmirror.com/axios/-/axios-1.7.7.tgz 0ms (cache hit)
+303 silly tarball no local data for @vueuse/core@https://registry.npmmirror.com/@vueuse/core/-/core-9.13.0.tgz. Extracting by manifest.
+304 silly tarball no local data for @vueuse/shared@https://registry.npmmirror.com/@vueuse/shared/-/shared-9.13.0.tgz. Extracting by manifest.
+305 silly tarball no local data for @vueuse/metadata@https://registry.npmmirror.com/@vueuse/metadata/-/metadata-9.13.0.tgz. Extracting by manifest.
+306 silly tarball no local data for escape-html@https://registry.npmmirror.com/escape-html/-/escape-html-1.0.3.tgz. Extracting by manifest.
+307 silly tarball no local data for @vue/runtime-core@https://registry.npmmirror.com/@vue/runtime-core/-/runtime-core-3.4.38.tgz. Extracting by manifest.
+308 silly tarball no local data for @vue/runtime-dom@https://registry.npmmirror.com/@vue/runtime-dom/-/runtime-dom-3.4.38.tgz. Extracting by manifest.
+309 silly tarball no local data for @vue/server-renderer@https://registry.npmmirror.com/@vue/server-renderer/-/server-renderer-3.4.38.tgz. Extracting by manifest.
+310 silly tarball no local data for @vue/reactivity@https://registry.npmmirror.com/@vue/reactivity/-/reactivity-3.4.38.tgz. Extracting by manifest.
+311 silly tarball no local data for @vue/compiler-sfc@https://registry.npmmirror.com/@vue/compiler-sfc/-/compiler-sfc-3.4.38.tgz. Extracting by manifest.
+312 silly tarball no local data for @vue/compiler-ssr@https://registry.npmmirror.com/@vue/compiler-ssr/-/compiler-ssr-3.4.38.tgz. Extracting by manifest.
+313 silly tarball no local data for @vue/compiler-dom@https://registry.npmmirror.com/@vue/compiler-dom/-/compiler-dom-3.4.38.tgz. Extracting by manifest.
+314 silly tarball no local data for @vue/shared@https://registry.npmmirror.com/@vue/shared/-/shared-3.4.38.tgz. Extracting by manifest.
+315 silly tarball no local data for @vitejs/plugin-vue@https://registry.npmmirror.com/@vitejs/plugin-vue/-/plugin-vue-5.1.4.tgz. Extracting by manifest.
+316 silly tarball no local data for @types/web-bluetooth@https://registry.npmmirror.com/@types/web-bluetooth/-/web-bluetooth-0.0.16.tgz. Extracting by manifest.
+317 silly tarball no local data for @vue/compiler-core@https://registry.npmmirror.com/@vue/compiler-core/-/compiler-core-3.4.38.tgz. Extracting by manifest.
+318 silly tarball no local data for @ctrl/tinycolor@https://registry.npmmirror.com/@ctrl/tinycolor/-/tinycolor-3.6.1.tgz. Extracting by manifest.
+319 silly tarball no local data for vue@https://registry.npmmirror.com/vue/-/vue-3.4.38.tgz. Extracting by manifest.
+320 silly tarball no local data for zrender@https://registry.npmmirror.com/zrender/-/zrender-5.6.0.tgz. Extracting by manifest.
+321 silly tarball no local data for vite@https://registry.npmmirror.com/vite/-/vite-5.4.8.tgz. Extracting by manifest.
+322 silly tarball no local data for vue-router@https://registry.npmmirror.com/vue-router/-/vue-router-4.4.3.tgz. Extracting by manifest.
+323 silly tarball no local data for proxy-from-env@https://registry.npmmirror.com/proxy-from-env/-/proxy-from-env-1.1.0.tgz. Extracting by manifest.
+324 silly tarball no local data for pinia@https://registry.npmmirror.com/pinia/-/pinia-2.2.2.tgz. Extracting by manifest.
+325 silly tarball no local data for echarts@https://registry.npmmirror.com/echarts/-/echarts-5.5.1.tgz. Extracting by manifest.
+326 silly tarball no local data for element-plus@https://registry.npmmirror.com/element-plus/-/element-plus-2.7.8.tgz. Extracting by manifest.
+327 silly tarball no local data for entities@https://registry.npmmirror.com/entities/-/entities-4.5.0.tgz. Extracting by manifest.
+328 silly tarball no local data for axios@https://registry.npmmirror.com/axios/-/axios-1.7.7.tgz. Extracting by manifest.
+329 http fetch GET 200 https://cdn.npmmirror.com/packages/escape-html/1.0.3/escape-html-1.0.3.tgz 226ms (cache miss)
+330 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vue/compiler-ssr/3.4.38/compiler-ssr-3.4.38.tgz 249ms (cache miss)
+331 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vueuse/metadata/9.13.0/metadata-9.13.0.tgz 259ms (cache miss)
+332 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vueuse/shared/9.13.0/shared-9.13.0.tgz 303ms (cache miss)
+333 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vitejs/plugin-vue/5.1.4/plugin-vue-5.1.4.tgz 325ms (cache miss)
+334 http fetch GET 200 https://cdn.npmmirror.com/packages/%40types/web-bluetooth/0.0.16/web-bluetooth-0.0.16.tgz 326ms (cache miss)
+335 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vue/server-renderer/3.4.38/server-renderer-3.4.38.tgz 339ms (cache miss)
+336 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vue/reactivity/3.4.38/reactivity-3.4.38.tgz 357ms (cache miss)
+337 http fetch GET 200 https://cdn.npmmirror.com/packages/proxy-from-env/1.1.0/proxy-from-env-1.1.0.tgz 355ms (cache miss)
+338 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vue/runtime-core/3.4.38/runtime-core-3.4.38.tgz 383ms (cache miss)
+339 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vue/shared/3.4.38/shared-3.4.38.tgz 402ms (cache miss)
+340 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vue/runtime-dom/3.4.38/runtime-dom-3.4.38.tgz 506ms (cache miss)
+341 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vue/compiler-dom/3.4.38/compiler-dom-3.4.38.tgz 538ms (cache miss)
+342 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vue/compiler-sfc/3.4.38/compiler-sfc-3.4.38.tgz 542ms (cache miss)
+343 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vue/compiler-core/3.4.38/compiler-core-3.4.38.tgz 543ms (cache miss)
+344 http fetch GET 200 https://cdn.npmmirror.com/packages/pinia/2.2.2/pinia-2.2.2.tgz 543ms (cache miss)
+345 http fetch GET 200 https://cdn.npmmirror.com/packages/%40vueuse/core/9.13.0/core-9.13.0.tgz 556ms (cache miss)
+346 http fetch GET 200 https://cdn.npmmirror.com/packages/vue-router/4.4.3/vue-router-4.4.3.tgz 559ms (cache miss)
+347 http fetch GET 200 https://cdn.npmmirror.com/packages/%40ctrl/tinycolor/3.6.1/tinycolor-3.6.1.tgz 578ms (cache miss)
+348 http fetch GET 200 https://cdn.npmmirror.com/packages/vite/5.4.8/vite-5.4.8.tgz 623ms (cache miss)
+349 http fetch GET 200 https://cdn.npmmirror.com/packages/entities/4.5.0/entities-4.5.0.tgz 680ms (cache miss)
+350 http fetch GET 200 https://cdn.npmmirror.com/packages/axios/1.7.7/axios-1.7.7.tgz 728ms (cache miss)
+351 http fetch GET 200 https://cdn.npmmirror.com/packages/zrender/5.6.0/zrender-5.6.0.tgz 1062ms (cache miss)
+352 http fetch GET 200 https://cdn.npmmirror.com/packages/vue/3.4.38/vue-3.4.38.tgz 2114ms (cache miss)
+353 http fetch GET 200 https://cdn.npmmirror.com/packages/echarts/5.5.1/echarts-5.5.1.tgz 7898ms (cache miss)
+354 http fetch GET 200 https://cdn.npmmirror.com/packages/element-plus/2.7.8/element-plus-2.7.8.tgz 13018ms (cache miss)
+355 silly ADD node_modules/escape-html
+356 silly CHANGE node_modules/@vueuse/core
+357 silly CHANGE node_modules/@vueuse/shared
+358 silly CHANGE node_modules/@vueuse/metadata
+359 silly CHANGE node_modules/@vue/shared
+360 silly CHANGE node_modules/@vue/server-renderer
+361 silly CHANGE node_modules/@vue/runtime-dom
+362 silly CHANGE node_modules/@vue/runtime-core
+363 silly CHANGE node_modules/@vue/reactivity
+364 silly CHANGE node_modules/@vue/compiler-sfc
+365 silly CHANGE node_modules/@vue/compiler-ssr
+366 silly CHANGE node_modules/@vue/compiler-dom
+367 silly CHANGE node_modules/@vue/compiler-core
+368 silly CHANGE node_modules/@vitejs/plugin-vue
+369 silly CHANGE node_modules/@types/web-bluetooth
+370 silly CHANGE node_modules/@ctrl/tinycolor
+371 silly CHANGE node_modules/zrender
+372 silly CHANGE node_modules/vue-router
+373 silly REMOVE node_modules/vue-component-type-helpers
+374 silly CHANGE node_modules/vue
+375 silly CHANGE node_modules/vite
+376 silly CHANGE node_modules/proxy-from-env
+377 silly REMOVE node_modules/ms
+378 silly CHANGE node_modules/pinia
+379 silly REMOVE node_modules/https-proxy-agent
+380 silly CHANGE node_modules/echarts
+381 silly REMOVE node_modules/debug
+382 silly CHANGE node_modules/element-plus
+383 silly CHANGE node_modules/entities
+384 silly CHANGE node_modules/axios
+385 silly REMOVE node_modules/agent-base
+386 verbose cwd D:\zhongyinbei\lab-mgmt-demo\frontend
+387 verbose os Windows_NT 10.0.26200
+388 verbose node v24.20.0
+389 verbose npm  v11.19.0
+390 verbose exit 0
+391 info ok

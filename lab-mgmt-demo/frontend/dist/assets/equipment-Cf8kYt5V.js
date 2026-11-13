@@ -1,0 +1,1 @@
+import{D as t}from"./index-Dnk-3sH4.js";function i(e){return t.get("/equipments",{params:e})}function p(e){return t.post("/equipments",e)}function r(e,n){return t.put(`/equipments/${e}`,n)}function s(e){return t.delete(`/equipments/${e}`)}export{p as c,s as d,i as g,r as u};

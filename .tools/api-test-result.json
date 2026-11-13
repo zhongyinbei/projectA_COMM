@@ -1,0 +1,232 @@
+[
+  {
+    "name": "Phase 2 三角色登录",
+    "detail": {
+      "admin": "ADMIN",
+      "repairer": "REPAIRER",
+      "reporter": "REPORTER"
+    }
+  },
+  {
+    "name": "Phase 2 /auth/me",
+    "detail": {
+      "id": 1,
+      "username": "admin",
+      "realName": "系统管理员",
+      "role": "ADMIN"
+    }
+  },
+  {
+    "name": "Phase 2 未登录 401",
+    "detail": {
+      "code": 401,
+      "message": "未登录或登录已过期",
+      "data": null
+    }
+  },
+  {
+    "name": "Phase 3 种子设备 5 条",
+    "detail": {
+      "total": 5,
+      "records": 5
+    }
+  },
+  {
+    "name": "Phase 3 管理员新增设备",
+    "detail": {
+      "id": 6,
+      "assetNo": "LAB-TEST-901"
+    }
+  },
+  {
+    "name": "Phase 3 新增后总数 6",
+    "detail": {
+      "total": 6
+    }
+  },
+  {
+    "name": "Phase 3 REPORTER 新增设备 403",
+    "detail": {
+      "code": 403,
+      "message": "无权限访问",
+      "data": null
+    }
+  },
+  {
+    "name": "Phase 3 删除测试设备恢复 5 条",
+    "detail": {
+      "total": 5
+    }
+  },
+  {
+    "name": "Phase 4 REPORTER 提交工单",
+    "detail": {
+      "id": 1,
+      "orderNo": "RO20261112151921353",
+      "status": "PENDING"
+    }
+  },
+  {
+    "name": "Phase 4 REPAIRER 接单",
+    "detail": {
+      "id": 1,
+      "http": 200
+    }
+  },
+  {
+    "name": "Phase 4 重复接单 409",
+    "detail": {
+      "code": 409,
+      "message": "工单状态已变化",
+      "data": null
+    }
+  },
+  {
+    "name": "Phase 4 完成工单",
+    "detail": {
+      "id": 1,
+      "http": 200
+    }
+  },
+  {
+    "name": "Phase 4 状态与设备恢复",
+    "detail": {
+      "orderStatus": "COMPLETED",
+      "equipmentStatus": "NORMAL"
+    }
+  },
+  {
+    "name": "Phase 5 二维码 PNG",
+    "detail": {
+      "bytes": 385,
+      "contentType": "image/png"
+    }
+  },
+  {
+    "name": "Phase 5 在线巡检",
+    "detail": {
+      "id": 1,
+      "pointCode": "P-001"
+    }
+  },
+  {
+    "name": "Phase 5 离线同步",
+    "detail": {
+      "success": 1,
+      "failed": 0
+    }
+  },
+  {
+    "name": "Phase 5 巡检记录查询",
+    "detail": {
+      "total": 2,
+      "offlineRecord": {
+        "pointCode": "P-002",
+        "syncedFromOffline": 1
+      }
+    }
+  },
+  {
+    "name": "Phase 6 耗材出库扣减",
+    "detail": {
+      "id": 5,
+      "stock": 1
+    }
+  },
+  {
+    "name": "Phase 6 库存不足 400",
+    "detail": {
+      "code": 400,
+      "message": "库存不足",
+      "data": null
+    }
+  },
+  {
+    "name": "Phase 6 看板汇总与红色告警数据",
+    "detail": {
+      "equipmentTotal": 5,
+      "pendingOrders": 0,
+      "abnormalInspections": 1,
+      "alerts": [
+        "光纤跳线:1/5"
+      ]
+    }
+  },
+  {
+    "name": "Phase 6 看板三组聚合",
+    "detail": {
+      "equipmentStatus": [
+        {
+          "count": 3,
+          "status": "NORMAL"
+        },
+        {
+          "count": 1,
+          "status": "REPAIRING"
+        },
+        {
+          "count": 1,
+          "status": "SCRAPPED"
+        }
+      ],
+      "inspectionRate": [
+        {
+          "date": "2026-11-06",
+          "count": 0
+        },
+        {
+          "date": "2026-11-07",
+          "count": 0
+        },
+        {
+          "date": "2026-11-08",
+          "count": 0
+        },
+        {
+          "date": "2026-11-09",
+          "count": 0
+        },
+        {
+          "date": "2026-11-10",
+          "count": 0
+        },
+        {
+          "date": "2026-11-11",
+          "count": 1
+        },
+        {
+          "date": "2026-11-12",
+          "count": 1
+        }
+      ],
+      "consumableTop": [
+        {
+          "quantity": 1,
+          "name": "光纤跳线"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Phase 6 图片上传与静态访问",
+    "detail": {
+      "url": "/uploads/42579ec444584c07aeca7880fda0c8ce.png",
+      "bytes": 68
+    }
+  },
+  {
+    "name": "A8 越权耗材接口 403",
+    "detail": {
+      "code": 403,
+      "message": "无权限访问",
+      "data": null
+    }
+  },
+  {
+    "name": "CORS 仅放行 5173",
+    "detail": {
+      "status": 200,
+      "allowOrigin": "http://localhost:5173"
+    }
+  }
+]
